@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class="background2">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Character Creation | D&D: An Introduction</title>
+</head>
+<body>
+    <div class="nav">
+        <img src="logoetsy.jpg" alt="logo" height="50px">
+        <a class="navone" href="index.html">Home</a>
+        <a class="navtwo" href="character.html">Character Creation</a>
+        <a class="navthree" href="gameplay.html">Gameplay</a>
+    </div>
+    <div>
+        <h1>Character Creation</h1>
+    </div>
+    <div>
+        <p id="pc1">
+            Below is the first page of the character sheet for a personal level 1 character called MULK 
+            created on <a href="https://www.dndbeyond.com" target="_blank">D&D Beyond</a>.
+        </p>
+        <p id="pc2">
+            Click on a boxed part of the sheet to find out more!
+        </p>
+    </div>
+    <div id="chshimg" class="center">
+        <!-- <img src="mulkcn.jpg" alt="Character Sheet" width="904" height="1191"> -->
+        <!--  <map name=""><area id=""></map> id DOESN'T WORK IN map, HAS TO BE NAME -->
+        <a id="chshidentity" href="#identity">
+            <img class="allchsh" src="mulkcnidentity.jpg" alt="Identity" width="450" height="80">
+        </a>
+        <a id="chshstats" href="#stats">
+            <img class="allchsh" src="mulkcnstats.jpg" alt="Ability Scores" width="97" height="719">
+        </a>
+        <a id="chshstskills" href="#stskills">
+            <img class="allchsh" src="mulkcnstskills.jpg" alt="Saving Throws and Skills" width="147" height="707">
+        </a>
+        <a id="chshinitiative" href="#initiative">
+            <img class="allchsh" src="mulkcninitiative.jpg" alt="Initiative" width="92" height="89">
+        </a>
+        <a id="chsharmcl" href="#armcl">
+            <img class="allchsh" src="mulkcnarmcl.jpg" alt="Armour Class" width="92" height="89">
+        </a>
+        <a id="chshpbonus" href="#pbonus">
+            <img class="allchsh" src="mulkcnpbonus.jpg" alt="Proficiency Bonus" width="238" height="52">
+        </a>
+        <a id="chshhpoints" href="#hpoints">
+            <img class="allchsh" src="mulkcnhpoints.jpg" alt="Managing HP" width="245" height="175">
+        </a>
+        <a id="chshactions" href="#actions">
+            <img class="allchsh" src="mulkcnactions.jpg" alt="Actions" width="555" height="229">
+        </a>
+    </div>        
+    <div id="goliathdndbeyond">
+        <div>
+            <details>
+                <summary>Identity</summary>
+                <p id="identity">
+                    Being a goliath, MULK thinks he is more interesting than a mere human! 
+                    <br>
+                    He is proud of all the training he did to become a barbarian. 
+                    <br>
+                    He continues to train hard so that he may become a barbarian of a higher level!
+                </p>
+            </details>
+        </div>
+        <div>
+            <details>
+                <summary>Ability Scores</summary>
+                <p id="stats">
+                    The six ability scores paint a picture of a character's physical and mental traits.
+                    <br>
+                    MULK might not be as charismatic as a bard but he's certain he's strong enough to beat one at arm wrestling!
+                    <br>
+                    There are a few ways of setting your character's abilities, rolling for stats being the most exciting one!
+                    <br>
+                    How to roll for stats:
+                    <ul id="statsul">
+                        <li>Roll 4d6 (four six-sided dice).</li>
+                        <li>Note down the sum of the highest three rolls.</li>
+                        <li>Repeat the above five more times.</li>
+                        <li>You now have six numbers, and you can assign each to a different ability score as you wish.</li>
+                    </ul>
+                    <p id="statsp">
+                    To get the corresponding modifier, take away 10 from an ability score, 
+                    divide the outcome by 2 and round down the answer if required.
+                    <br>
+                    With an impressive score of 17, MULK's strength modifier is +3!
+                    <br>
+                    See <a href="#stskills">Saving Throws and Skills</a> for more insight on modifiers.
+                    </p>
+                </p>
+            </details>
+        </div>
+        <div>
+            <details>
+                <summary>Saving Throws and Skills</summary>
+                <p id="stskills">
+                    Skills determine whether a character is likely to perform well or not when attempting a task.
+                    <br>
+                    Each skill is based on an ability, so, e.g., MULK's strength means that he is very athletic!
+                    <br>
+                    Saving throws are made to defend against threats.
+                    <br>
+                    When a player performs a skill check or a saving throw, they roll 1d20 and add the relevant modifier to the outcome.
+                    <br>
+                    The higher their score is the more likely that their character will be successful.
+                    <br>
+                    If the character is proficient in a skill or a saving throw, 
+                    then the player can also add the character's <a href="#pbonus">Proficiency Bonus</a> to the roll.
+                </p>
+            </details>
+        </div>
+        <div>
+            <details>
+                <summary>Initiative</summary>
+                <p id="initiative">
+                    When the players are in a hostile situation, everyone involved in the encounter must roll initiative before it begins.
+                    <br>
+                    This determines the order in which the combatants take turns, 
+                    with the combatant with the highest initiative check getting to act first. 
+                    <br>
+                    Rolling for initiative is a Dexterity check, hence MULK's initiative score will be determined as 1d20+2.
+                </p>
+            </details>
+        </div>
+        <div>
+            <details>
+                <summary>Armour Class</summary>
+                <p id="armcl">
+                    Armour Class, or AC, represents how well the character will be able to avoid getting hit in battle.
+                    <br>
+                    Without armour or shield, AC is calculated as 10 + Dexterity modifier.
+                    <br>
+                    However since MULK is a Barbarian 
+                    (see <a href="https://www.dndbeyond.com/classes/barbarian#UnarmoredDefense-52" target="_blank">Unarmored Defense</a>), 
+                    if he doesn't wear any armour he also gets to add his Constitution modifier,
+                    giving a total AC of 16! 
+                    <br>
+
+                </p>
+            </details>
+        </div>
+        <div>
+            <details>
+                <summary>Proficiency Bonus</summary>
+                <p id="pbonus">
+                    Proficiency Bonus increases at certain levels 
+                    and can added to numbers when dealing with things the character is proficient in.
+                    <br>
+                    Note that MULK is proficient at using martial weapons 
+                    (see the PROFICIENCIES AND LANGUAGES box in the <a href="#chshimg">character sheet</a>).
+                    <br>
+                    Hence when the player rolls 1d20 to attack with MULK's greataxe, 
+                    they can add +2, the Proficiency Bonus, to the roll.
+                    <br>
+                    Greataxe is a melee weapon, so +3, the Strength modifier, is also added to attack rolls 
+                    (the Dexterity modifier is added when attacking with ranged weapons).
+                    <br>
+                    Therefore, +5 can be added to attack rolls for MULK's greataxe
+                    (see the +5 next to Greataxe in the WEAPON ATTACKS & CANTRIPS box in the <a href="#chshimg">character sheet</a>).
+                    <br>
+                    If 1d20+5 is greater than or equal to the target's <abbr title="Armour Class">AC</abbr> then the attack will hit.
+                    <br>
+                    Yup! MULK is pretty confident about landing hits with his greataxe!
+                </p>
+            </details>
+        </div>
+        <div>
+            <details>
+                <summary>Managing HP</summary>
+                <p id="hpoints">
+                    A character's <abbr title="Hit Points">HP</abbr> decrease in line with the damage they take.
+                    <br>
+                    The character goes down if they lose all their HP. They will then need to make one death save each turn.
+                    <br>
+                    This involves rolling 1d20:
+                    <ul id="hpointsul">
+                        <li>A roll of 10 or above counts as a success.</li>
+                        <li>A roll lower than 10 is a failure.</li>
+                        <li>3 successes make the character stable; they will remain unconscious but won't need to make any more death saves.</li>
+                        <li>3 failures mean death.</li>
+                    </ul>
+                    <p id="hpointsp">
+                    A character has a number of hit dice equal to their current level available to them.
+                    <br>
+                    After a short rest, the character can spend any number of their hit dice to gain lost HP.
+                    <br>
+                    The character is able to regain some of their spent hit dice after a long rest.
+                    </p>
+                </p>
+            </details>
+        </div>
+        <div>
+            <details>
+                <summary>Actions</summary>
+                <p id="actions">
+                    At each turn during combat, the character can do the following:
+                    <ul id="actionsul">
+                        <li>Move a distance up to their speed. MULK can walk up to 30ft each turn (see the SPEED box in the <a href="#chshimg">character sheet</a>).</li>
+                        <li>Take one action; for MULK it's usually attacking with his greataxe!.</li>
+                        <li>Take a bonus action. You wouldn't want to be up against MULK when he enters Rage!</li>
+                        <li>Take a reaction. This can also be taken during someone else's turn. After taking a reaction, another can't be taken until the next turn.</li>
+                    </ul>                    
+                </p>
+            </details>
+        </div>
+    </div>
+</body>
+</html>
